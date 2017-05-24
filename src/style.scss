@@ -1,15 +1,10 @@
 @import '_layout/layout';
+// @import '_component/fonts/fonts';
 @import '_component/about/about';
 @import '_component/food-menu/food-menu';
 @import '_component/events/events';
 @import '_component/contact/contact';
 @import '_component/landing/landing';
-
-.section{
-  height: 100vh;
-  // background-color: grey;
-  // border: 1px solid red;
-}
 
 h1 {
   color: red;

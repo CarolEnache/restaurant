@@ -6,6 +6,7 @@
   height: 100%;
   transition: 0.3s linear;
   display: flex;
+  background-color: yellow;
 }
 .food-menu-radio:checked + .section.food-menu{
   position: absolute;
