@@ -1,1 +1,25 @@
 @import '_layout/layout';
+@import '_component/about/about';
+@import '_component/food-menu/food-menu';
+@import '_component/events/events';
+@import '_component/contact/contact';
+
+.section{
+  height: 100vh;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+h1 {
+  color: red;
+  font-size: 30px;
+}
+
+input.section-home {
+  display: none;
+}
+.section-home{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}

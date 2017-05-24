@@ -1,0 +1,21 @@
+.section.food-menu{
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s linear;
+  display: flex;
+}
+.food-menu-radio:checked + .section.food-menu{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s linear;
+}
+
+.food-menu-radio{
+  display: none;
+}
