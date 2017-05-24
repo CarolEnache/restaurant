@@ -1,7 +1,14 @@
 .landing.section
-  h1 landing page
-  input.section-home(type="radio", name="secitions" id="section-home")
-  label.home-menu-radio(for="section-about") Despre noi
-  label.home-menu-radio(for="section-contact") Contact
-  label.home-menu-radio(for="section-events") Evenimente
-  label.home-menu-radio(for="section-food-menu") Meniu
+  .landing-wrapper
+    each content in data.bacco.landing
+      .landing-content
+        if content.type === 'avatar'
+          .landing-logo-wrapper
+            img.landing-avatar(src=content.url)
+        
+    .menu-wrapper
+      input.section-home(type="radio", name="secitions" id="section-home")
+      label.home-menu-radio(for="section-about") Despre noi
+      label.home-menu-radio(for="section-contact") Contact
+      label.home-menu-radio(for="section-events") Evenimente
+      label.home-menu-radio(for="section-food-menu") Meniu

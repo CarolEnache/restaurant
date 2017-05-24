@@ -2,5 +2,11 @@
   "page":{
     "pageTitle": "Restaurant Bacco",
     "pageDescription": "Restaurant mediteranean ofera salon de evenimente: nunti, botezuri, evenimente festive si muzica live "
+  },
+  "landing":{
+    "content":{
+      "type": "avatar",
+      "url": "asset/image/bacco.png"
+    }
   }
 }

@@ -1,4 +1,35 @@
 .landing.section{
-  background-image: url("asset/image/bacco.jpg")center center fixed;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.landing-logo-wrapper{
+  max-width: 100%;
+}
+.landing-avatar{
+  max-width:100%;
+}
+
+.menu-wrapper{
+  display: flex;
+  justify-content:space-around;
+  max-width: 100%;
+  margin-top: 74px;
+  font-size: 17px;
+  font-weight: 500;
+
+}
+
+.home-menu-radio{
+  text-align: center;
+  line-height: 60px;
+  font-size: 100%;
+}
+
+label.home-menu-radio{
+  color: grey;
+  width: 20%;
+  height: 20%;
 }
