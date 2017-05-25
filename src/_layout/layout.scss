@@ -4,7 +4,7 @@ html{
   font-size: calc(12px + (24 - 12) * ((100vmin - 400px) / (800 - 400) ));
 }
 
-html body {
+html, body {
   height: 100%;
 }
 
@@ -14,6 +14,6 @@ html body {
 //
 // }
 
-// %section{
-//   min-height: 100vh;
-// }
+%section{
+  min-height: 100vh;
+}
