@@ -1,6 +1,5 @@
-@import 'landing-tablet';
+@media(max-width: 1200px){
 
-@media(max-width: 600px){
   .landing.section{
     background-color: black;
     display: flex;
@@ -10,7 +9,9 @@
   }
 
   .landing-logo-wrapper{
-    max-width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+
   }
   .landing-avatar{
     max-width:100%;
