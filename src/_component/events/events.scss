@@ -1,4 +1,5 @@
-.section.events{
+.events-section{
+  @extend %section;
   position: absolute;
   top: 0;
   right: 100%;
@@ -8,7 +9,7 @@
   display: flex;
   background-color: green;
 }
-.events-radio:checked + .section.events{
+.events-radio:checked + .events-section{
   position: absolute;
   top: 0;
   right: 0;

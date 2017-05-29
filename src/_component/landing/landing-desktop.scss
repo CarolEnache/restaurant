@@ -1,37 +1,3 @@
-.landing.section{
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100%;
-}
-.landing-avatar{
-  max-width:100%;
-}
-
-.menu-wrapper{
-  display: flex;
-  justify-content:space-around;
-  max-width: 100%;
-  margin-top: 6.2rem;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.home-menu-radio{
-  text-align: center;
-  line-height: 3.75rem;
-  font-size: 80%;
-  color: #ecd075;
-
-
-}
-
-.home-menu-radio:hover{
-  text-align: center;
-  line-height: 3.75rem;
-  font-size: 100%;
-  color: #ef4135;
-  transition: 0.3s;
-
+@media (min-width:1280px) {
+  // just the ones for desktop that are different
 }

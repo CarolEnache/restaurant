@@ -1,4 +1,5 @@
-.section.food-menu{
+.food-menu-section{
+  @extend %section;
   position: absolute;
   top: 0;
   right: 100%;
@@ -9,7 +10,7 @@
   flex-direction: column;
   background-color: yellow;
 }
-.food-menu-radio:checked + .section.food-menu{
+.food-menu-radio:checked + .food-menu-section{
   position: absolute;
   top: 0;
   right: 0;

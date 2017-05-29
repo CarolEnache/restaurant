@@ -1,42 +1,10 @@
-@media(max-width: 1200px){
-
-  .landing.section{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
+@media(min-width: 768px){
+  .landing-section{
+    background-color: gray;
   }
 
   .landing-logo-wrapper{
     max-width: 70%;
     margin: 0 auto;
-
   }
-  .landing-avatar{
-    max-width:100%;
-  }
-
-  .menu-wrapper{
-    display: flex;
-    justify-content:space-around;
-    max-width: 100%;
-    margin-top: 6.2rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-
-  .home-menu-radio{
-    text-align: center;
-    line-height: 3.75rem;
-    font-size: 100%;
-
-  }
-
-  label.home-menu-radio{
-    color: #ecd075;
-    // width: 20%;
-    // height: 20%;
-  }
-
 }

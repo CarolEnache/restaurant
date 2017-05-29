@@ -1,16 +1,14 @@
-.button-wrapper{
+.section-home {
+  color: white;
   border: 1px solid black;
   background: black;
   opacity: 0.3;
   width: 15%;
   height: 10%;
   position:fixed;
-  bottom: 0;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.section-home{
-  color: white;
+  transition: 0.2s;
 }
