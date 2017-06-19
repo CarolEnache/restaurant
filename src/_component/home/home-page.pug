@@ -1,0 +1,11 @@
+.section-home
+  .section-home-wrapper
+    .img-wrapper
+      img.logo(src="asset/image/bacco.png")
+    .desc-wrapper
+      .paragraph-wrapper
+        for paragraph in data.bacco.description.text
+          if paragraph === "paragraph"
+          p #{paragraph.paragraph}
+      a#arrow(href="#")
+        span.icon-angle-down.floating

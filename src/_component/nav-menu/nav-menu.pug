@@ -1,0 +1,7 @@
+input.nav-menu(type="checkbox", id="nav-menu")
+.section-menu
+  .menu-wrapper
+    ul.nav-menu-list
+      each i in data.bacco.menu.button
+        li.nav-menu-item
+          a.nav-menu-link(href=`${i.url}`) #{i.label}

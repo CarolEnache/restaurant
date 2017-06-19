@@ -3,43 +3,35 @@
     "pageTitle": "Restaurant Bacco",
     "pageDescription": "Restaurant mediteranean ofera salon de evenimente: nunti, botezuri, evenimente festive si muzica live "
   },
-  "landing":{
-    "content":{
-      "type": "avatar",
-      "url": "asset/image/bacco.png"
-    }
-  },
-  "contact":{
-    "title":"Contact",
-    "desc":"Program zilnic: 9am - 1am",
-    "content":[
+  "description":{
+    "text":[
       {
-        "type": "map",
-        "url": "src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBHuQ49a3wJNp1_n2_vE6N2lrcwCk-_mII&callback=initMa'"
+        "title": "paragraph 1",
+        "paragraph": ["Restaurant international cu specific mediteranean va punem la dispozitie un meniu diversificat cu preparate din carne, peste si fructe de mare"]
       },
       {
-        "type": "details",
-        "list":{
-          "addressLabel": "Adresa: ",
-          "address": "Badea Cartan Nr.2; Constanta, Romania",
-          "phoneLabel": "Telefon:",
-          "phone": "<a href='tel:0785287483'> 0785 287 483</a>",
-          "emailLabel": "Email:",
-          "email": "<a href='mailto:office@restaurantbacco.ro'>office@restaurantbacco.ro</a>",
-          "socialLabel": "Social:",
-          "social": [{
-            "icon": "icon-facebook2",
-            "url": "https://www.facebook.com/restaurantbacco/"
-          },
-          {
-            "icon": "icon-instagram",
-            "url": "https://www.facebook.com/restaurantbacco/"
-            },
-          {
-            "icon": "icon-tripadvisor",
-            "url": "https://www.tripadvisor.co.uk/Restaurant_Review-g295396-d8052283-Reviews-Restaurant_Bacco-Constanta_Constanta_County_Southeast_Romania.html"
-            }]
-        }
+        "title": "paragraph 2",
+        "paragraph": ["Specializati in evenimente private organizam nunti, botezuri si evenimente corporatiste"]
+      }
+    ]
+  },
+  "menu":{
+    "button":[
+      {
+        "label": "Despre noi",
+        "src": "#"
+      },
+      {
+        "label": "Menu",
+        "src": "#"
+      },
+      {
+        "label": "Contact",
+        "src": "#"
+      },
+      {
+        "label": "Evenimente",
+        "src": "#"
       }
     ]
   }

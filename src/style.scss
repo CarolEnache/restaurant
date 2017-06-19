@@ -1,13 +1,6 @@
-@import '_layout/layout';
-@import '_component/fonts/fonts';
-@import '_component/about/about';
-@import '_component/food-menu/food-menu';
-@import '_component/events/events';
-@import '_component/contact/contact';
-@import '_component/landing/landing';
-@import '_component/return/return';
-
-h1 {
-  color: red;
-  font-size: 80px;
-}
+@import "_layout/layout";
+@import "fonts/fonts";
+@import "home/home-page";
+@import "nav-bar/nav-bar";
+@import "nav-menu/nav-menu";
+@import "rezervari/rezervari";

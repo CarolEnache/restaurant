@@ -5,19 +5,15 @@ html{
 }
 
 html, body {
-  height: 100%;
+  display: block;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   // set the open sans font for all elements
-  font-family: 'Open Sans';
-
-}
-
-%section{
+  margin: 0;
   min-height: 100vh;
-}
-
-input[type="radio"] {
-  display: none;
+  font-family: 'Open Sans';
 }

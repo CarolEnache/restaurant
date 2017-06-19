@@ -1,0 +1,12 @@
+.nav-bar
+  ul.nav-btns
+    each i in data.nav.menu
+      li.nav-btns-item 
+        a.nav-btns-link(href=`${i.url}`) #{i.title}
+  .toggle-wrapper
+    label.nav-menu-label(for="nav-menu").icon-list
+      //- a#toggle-btn(href="#")
+        //- span.line
+        //- span.line
+        //- span.line.short
+  

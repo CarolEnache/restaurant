@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('font/icomoon.eot?578bwl');
-  src:  url('font/icomoon.eot?578bwl#iefix') format('embedded-opentype'),
-    url('asset/font/icomoon.ttf?578bwl') format('truetype'),
-    url('asset/font/icomoon.woff?578bwl') format('woff'),
-    url('asset/font/icomoon.svg?578bwl#icomoon') format('svg');
+  src:  url('asset/font/icomoon.eot?avs6ip');
+  src:  url('asset/font/icomoon.eot?avs6ip#iefix') format('embedded-opentype'),
+    url('asset/font/icomoon.ttf?avs6ip') format('truetype'),
+    url('asset/font/icomoon.woff?avs6ip') format('woff'),
+    url('asset/font/icomoon.svg?avs6ip#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,11 +19,24 @@
   text-transform: none;
   line-height: 1;
 
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-angle-down:before {
+  content: "\e902";
+}
 .icon-tripadvisor:before {
   content: "\e901";
 }
@@ -31,8 +44,26 @@
   content: "\e900";
   color: #589442;
 }
-.icon-facebook2:before {
-  content: "\ea91";
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-map:before {
+  content: "\e94b";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-list:before {
+  content: "\e9ba";
+}
+.icon-italic:before {
+  content: "\ea64";
+}
+.icon-facebook:before {
+  content: "\ea90";
 }
 .icon-instagram:before {
   content: "\ea92";
