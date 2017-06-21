@@ -19,15 +19,6 @@
   border: 1px solid #9c7833;
 }
 
-.nav-btns-item:nth-child(4){
-  display: none;
-}
-
-.nav-btns-item:nth-child(2){
-  display: none;
-}
-
-
 .toggle-wrapper{
   width: 5rem;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
@@ -45,25 +36,9 @@
   top: 10px;
   font-size: 1.2rem;
   font-weight: lighter;
-  text-align: center;}
-
-#toggle-btn{
-  width: 4rem;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+  text-align: center;
 }
 
-#toggle-btn .line{
-  content: '';
-  margin-top: 1rem;
-  height: 1px;
-  width: 100%;
-  background-color: #9c7833;
-  float: right;
-}
-
-span.line .short{
-  width: 60%;
-}
 
 .nav-menu-label{
   color: white;

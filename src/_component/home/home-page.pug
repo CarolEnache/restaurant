@@ -2,10 +2,10 @@
   .section-home-wrapper
     .img-wrapper
       img.logo(src="asset/image/bacco.png")
-    .desc-wrapper
+    .home-desc-wrapper
       .paragraph-wrapper
-        for paragraph in data.bacco.description.text
-          if paragraph === "paragraph"
-          p #{paragraph.paragraph}
+        for y in data.bacco.description.text
+          if y === "paragraph"
+          p.home-desc #{y.paragraph}
       a#arrow(href="#")
         span.icon-angle-down.floating

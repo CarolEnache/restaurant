@@ -11,6 +11,7 @@ var bla = {
       },
       {
         "title": "paragraph 2",
+        "paragraph": ["Specializati in evenimente private organizam nunti si botezuri si alte cumetrii :))"],
         "paragraph": ["Specializati in evenimente private organizam nunti si botezuri si alte cumetrii :))"]
       }
     ]

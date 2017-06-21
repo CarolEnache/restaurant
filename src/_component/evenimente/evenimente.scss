@@ -1,0 +1,38 @@
+.evenimente{
+  background: black;
+  height: 100%;
+  padding: 1px;
+}
+.evenimente-desc-wrapper{
+  background-image: url(asset/image/14068136_1066337860108610_5551702801278800566_n.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60rem;
+}
+
+
+.evenimente-title{
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 3rem;
+}
+
+.rezervari-date{
+  color: white;
+}
+
+.evenimente-desc{
+  color: white;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.rezervari-item{
+  display: flex;
+}
