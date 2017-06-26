@@ -22,7 +22,7 @@
     },
     {
       "title": "Contact",
-      "url": "#"
+      "url": "#contact"
     }
   ],
   "menu":{
@@ -63,5 +63,64 @@
         "text": ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."]
       }
     ]
+  },
+  "contact":{
+    "title": "Contact",
+    "content":[{
+      "type": "program",
+      "title": "Program",
+      "program": [
+        {
+          "type": "date",
+          "desc": ["Luni - Sambata: ", " 9am - 1am"]
+        },
+        {
+          "type": "date",
+          "desc": [ "Duminica: ", " 9am - 12am"]
+
+        },
+        {
+          "type": "text",
+          "text": ["Pentru grupuri mai mari de opt persone va recomandam sa faceti rezervare si va aducem la cunostinta faptul ca meniul v-a fii limitat. Va multumim pentru intelegere. "]
+        }]
+      },
+      {
+        "type": "contact-details",
+        "title": "Detalii",
+        "detalii":[{
+          "type": "detail",
+          "address": "<a href='tel:0785287482'>0785 287 482</a>",
+          "icon": "phone"
+          },
+          {
+          "type": "detail",
+          "address": "<a href='mailto:office@restaurantbacco.ro'>office@restaurantbacco.ro</a>",
+          "icon": "envelop"
+          },
+          {
+            "type": "detail",
+            "address": "Badea Cartan nr.2 Constanta",
+            "icon": "map"
+          }]
+      },
+      {
+        "type": "social",
+        "title": "Social Media",
+        "social": [
+          {
+            "address": "https://www.facebook.com/restaurantbacco/",
+            "icon": "facebook"
+          },
+          {
+            "address": "https://www.instagram.com/explore/locations/401133358/restaurant-bacco/?hl=en",
+            "icon": "instagram"
+          },
+          {
+            "address": "https://www.instagram.com/explore/locations/401133358/restaurant-bacco/?hl=en",
+            "icon": "tripadvisor"
+          }
+        ]
+
+      }]
   }
 }

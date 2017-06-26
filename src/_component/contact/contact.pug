@@ -1,3 +1,39 @@
 #contact
 .contact
-  h1 test
+  h2.title #{data.bacco.contact.title}
+  each content in data.bacco.contact.content  
+    .contact-content
+      if content.type === "program"
+        .contact-program
+          h3.contact-title #{content.title}
+          ul.program-list
+            each i in content.program
+              if i.type === "date"
+                li.program-item
+                  p.days #{i.desc[0]}
+                  span #{i.desc[1]}
+              if i.type === "text"
+                p.contact-paragraph #{i.text}
+      if content.type === "contact-details"
+        h3.contact-title #{content.title}
+        ul.contact-details-list
+          each y in content.detalii
+            if y.type === "detail"
+              li.contact-details-item
+                span.contact-details-span(class=`icon-${y.icon}`)
+                p.contact-details-link !{y.address}
+      if content.type === "social"
+        h3.contact-title #{content.title}
+        ul.contact-social-list
+          each x in content.social
+            li.contact-social-item
+              a.contact-social-link(href=x.address target='_blank')
+                span.contact-social-icon(class=`icon-${x.icon}`)
+  .contact-map
+    .get-directions
+      form.directions(action='http://maps.google.com/maps', method='get', target='_blank')
+        input.directions-input1(type='text', name='saddr' placeholder="Introduce-ti locatia curenta")
+        input(type='hidden', name='daddr', value='[badea cartan nr  2 constanta]')
+        input.directions-input2(type='submit', value='Get Directions')
+
+    include contact-map
