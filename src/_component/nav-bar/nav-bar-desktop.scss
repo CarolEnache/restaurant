@@ -1,0 +1,23 @@
+@media (min-width: 1000px){
+  .nav-btns-item {
+    width: 100%;
+  }
+  .nav-btns-link:nth-child(1):hover {
+    background-color: #9c7833;
+    color: black;
+  }
+  .nav-btns-link {
+    font-size: 0.7rem;
+    top: 0.4rem;
+    margin: 1rem;
+    padding: 1rem;
+
+  }
+  // .nav-btns-link:hover {
+  //   color: black;
+  // }
+  .nav-menu-label {
+    cursor: default;
+    font-size: 2rem;
+  }
+}

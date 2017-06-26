@@ -1,7 +1,7 @@
 .nav-bar
   ul.nav-btns
-    each i in data.bacco.nav
-      li.nav-btns-item 
+    li.nav-btns-item 
+      each i in data.bacco.nav
         a.nav-btns-link(href=`${i.url}`) #{i.title}
   .toggle-wrapper
     label.nav-menu-label(for="nav-menu").icon-list
