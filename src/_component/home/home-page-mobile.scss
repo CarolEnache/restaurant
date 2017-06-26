@@ -1,0 +1,75 @@
+.section-home{
+  background-color: black;
+  min-height: 100vh;
+}
+
+.home-menu:checked + .section-home{
+  position: absolute;
+}
+
+.home-desc-wrapper{
+  background-image: url(asset/image/bacco-landing.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 41rem;
+}
+
+.logo{
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.paragraph-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-desc{
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: lighter;
+}
+
+#arrow{
+  text-decoration: none;
+  color: #9c7833;
+}
+
+.icon-angle-down{
+  font-size: 6rem;
+}
+
+.floating{
+  float: left;
+  -webkit-animation-name: Floatingx;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: Floating;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  margin-left: 0px;
+  margin-top: 2rem;
+}
+
+@-webkit-keyframes Floatingx{
+  from {-webkit-transform:translate(0, 0px);}
+  65% {-webkit-transform:translate(0, 60px);}
+  to {-webkit-transform: translate(0, -0px);}
+}
+
+@-moz-keyframes Floating{
+  from {-moz-transform:translate(0, 0px);}
+  65% {-moz-transform:translate(0, 15px);}
+  to {-moz-transform: translate(0, -0px);}
+}
