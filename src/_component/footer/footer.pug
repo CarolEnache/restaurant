@@ -1,6 +1,5 @@
 #footer
 .footer-section
-  .footer-title &copy Restaurant Bacco 2017
   .footer-content
     each content in data.bacco.contact.content  
       if content.type === "program"
@@ -10,7 +9,7 @@
             each i in content.program
               if i.type === "date"
                 li.footer-program-item
-                  p.days #{i.desc[0]}
+                  p.footer-days #{i.desc[0]}
                   span #{i.desc[1]}
       if content.type === "contact-details"
         //- h3.footer-title #{content.title}
@@ -27,3 +26,4 @@
             li.footer-social-item
               a.footer-social-link(href=x.address target='_blank')
                 span.footer-social-icon(class=`icon-${x.icon}`)
+  .footer-title &copy Restaurant Bacco 2017

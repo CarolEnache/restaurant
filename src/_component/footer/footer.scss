@@ -1,4 +1,41 @@
 .footer-section{
   color:white;
   background-color: black;
+
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-details-item{
+  display: flex;
+  margin: 2px;
+}
+
+.footer-details-link a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-details-span{
+  padding-right: 4px;
+}
+
+.footer-program-item{
+  display: flex;
+  margin: 2px;
+}
+
+.footer-social-link{
+  color: white;
+  // border: 1px solid white;
+  // border-radius: 50%;
+  font-size: 1.5rem;
+  // margin: 1rem;
+  text-decoration: none;
+}
+.footer-social-icon{
+  margin: 1rem;
 }
