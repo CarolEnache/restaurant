@@ -9,6 +9,9 @@
 
 .home-desc-wrapper{
   background-image: url(asset/image/bacco-landing.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0px 200px;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   display: flex;
