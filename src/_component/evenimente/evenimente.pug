@@ -1,8 +1,7 @@
 #evenimente
 .evenimente
   .title #{data.bacco.evenimente.title}
-  .evenimente-desc-wrapper
-    .wrp
     each x in data.bacco.evenimente.content
       if x.type === "text"
         p.evenimente-desc #{x.text}
+  .evenimente-desc-wrapper

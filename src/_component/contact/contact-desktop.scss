@@ -1,0 +1,37 @@
+@media(min-width: 1000px){
+  .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact-program{
+    width: 40%;
+  }
+  .contact-details{
+    width: 40%;
+  }
+  .contact-social{
+    align-items: center;
+  }
+  .program-item{
+    font-size: .7rem;
+  }
+  .contact-title{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .days{
+    font-size: 0.7rem;
+  }
+  .contact-paragraph{
+    font-size: 0.7rem;
+  }
+  .contact-details-item{
+    font-size: 0.7rem;
+  }
+  .contact-details-link a{
+    font-size: 0.7rem;
+  }
+
+
+}

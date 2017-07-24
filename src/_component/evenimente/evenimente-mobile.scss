@@ -4,15 +4,16 @@
   padding: 1px;
 }
 .evenimente-desc-wrapper{
-  background-image: url(asset/image/evenimente-home_Fotor.jpg);
+  background-image: url(asset/image/events1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 0px 0px;
+  background-position: center center;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 
 
@@ -20,7 +21,7 @@
   color: white;
   font-size: 3rem;
   font-weight: 300;
-  margin: 3rem;
+  // margin: 3rem;
   margin-top: 6rem;
   text-align: center;
 }
@@ -31,10 +32,11 @@
 
 .evenimente-desc{
   color: white;
-    margin: 2rem;
-    font-size: 1.5rem;
-    color: white;
-    font-weight: lighter;
+  margin: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: lighter;
+  line-height: 2.5rem;
 }
 
 .rezervari-item{

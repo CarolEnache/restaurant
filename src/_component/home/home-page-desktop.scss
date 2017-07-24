@@ -1,23 +1,25 @@
 @media (min-width: 1000px){
-  .img-wrapper{
-    width: 30%;
-    margin: 0 auto;
-  }
+  
   .logo{
-    margin-top: 2rem;
+    margin-top: 3rem;
+    width: 40%;
   }
   .home-desc{
-    width: 50%;
+    width: 40%;
     margin: 1rem;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
     letter-spacing: 2px;
     font-weight: lighter;
+    // font-family: 'Abhaya Libre', serif;
   }
+
   .floating{
     font-size: 3rem;
   }
   .home-desc-wrapper{
-    height: 20rem;
-  }
+    // height: 20rem;
+    background-size: cover;
+    height: 100vh;
+    }
 }

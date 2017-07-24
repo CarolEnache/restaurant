@@ -1,8 +1,8 @@
 #contact
 .contact
   h2.title #{data.bacco.contact.title}
-  each content in data.bacco.contact.content  
-    .contact-content
+  .contact-content
+    each content in data.bacco.contact.content  
       if content.type === "program"
         .contact-program
           h3.contact-title #{content.title}
@@ -15,20 +15,22 @@
               if i.type === "text"
                 p.contact-paragraph #{i.text}
       if content.type === "contact-details"
-        h3.contact-title #{content.title}
-        ul.contact-details-list
-          each y in content.detalii
-            if y.type === "detail"
-              li.contact-details-item
-                span.contact-details-span(class=`icon-${y.icon}`)
-                p.contact-details-link !{y.address}
+        .contact-details
+          h3.contact-title #{content.title}
+          ul.contact-details-list
+            each y in content.detalii
+              if y.type === "detail"
+                li.contact-details-item
+                  span.contact-details-span(class=`icon-${y.icon}`)
+                  p.contact-details-link !{y.address}
       if content.type === "social"
-        h3.contact-title #{content.title}
-        ul.contact-social-list
-          each x in content.social
-            li.contact-social-item
-              a.contact-social-link(href=x.address target='_blank')
-                span.contact-social-icon(class=`icon-${x.icon}`)
+        .contact-social
+          h3.contact-title #{content.title}
+          ul.contact-social-list
+            each x in content.social
+              li.contact-social-item
+                a.contact-social-link(href=x.address target='_blank')
+                  span.contact-social-icon(class=`icon-${x.icon}`)
   .contact-map
     .get-directions
       form.directions(action='http://maps.google.com/maps', method='get', target='_blank')
