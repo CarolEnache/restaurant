@@ -23,6 +23,10 @@
     {
       "title": "Contact",
       "url": "#contact"
+    },
+    {
+      "title":"Meniu",
+      "url":"meniu"
     }
   ],
   "menu":{
