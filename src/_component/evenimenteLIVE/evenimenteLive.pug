@@ -1,0 +1,7 @@
+#evenimenteLive
+.evenimenteLive
+  .title #{data.bacco.evenimenteLive.title}
+    each x in data.bacco.evenimenteLive.content
+      if x.type === "text"
+        p.evenimenteLive-desc #{x.text}
+  .evenimenteLive-desc-wrapper

@@ -1,0 +1,22 @@
+@media (min-width: 1000px){
+  .evenimenteLive-desc-wrapper{
+    background-size: cover;
+    background-position: 0px 103px;
+    align-items: flex-end;
+    height: 100vh;
+    // margin: 2rem;
+  }
+  .title{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+  .evenimenteLive-desc{
+    margin: 2rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: lighter;
+    line-height: 1rem;
+  }
+
+}

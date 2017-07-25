@@ -1,10 +1,10 @@
-.evenimente{
+.evenimenteLive{
   background: black;
   height: 100%;
   padding: 1px;
 }
-.evenimente-desc-wrapper{
-  background-image: url(asset/image/events1_Fotor.jpg);
+.evenimenteLive-desc-wrapper{
+  background-image: url(asset/image/Guitar_Fotor.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,12 +16,10 @@
   height: 100vh;
 }
 
-
 .title{
   color: white;
   font-size: 3rem;
   font-weight: 300;
-  // margin: 3rem;
   margin-top: 6rem;
   text-align: center;
 }
@@ -30,7 +28,7 @@
   color: white;
 }
 
-.evenimente-desc{
+.evenimenteLive-desc{
   color: white;
   margin: 2rem;
   font-size: 1.5rem;

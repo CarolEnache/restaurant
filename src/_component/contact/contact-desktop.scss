@@ -13,6 +13,11 @@
   .contact-social{
     align-items: center;
   }
+  .contact-social-icon{
+    font-size: 1.5rem;
+    padding: 1rem;
+
+  }
   .program-item{
     font-size: .7rem;
   }
@@ -32,6 +37,20 @@
   .contact-details-link a{
     font-size: 0.7rem;
   }
+  .directions-input1{
+    width: 60%;
+    font-size: 1rem;
+  }
+  .directions-input2{
+    height: 6rem;
+    width: 30%;
+    font-size: 1rem;
+  }
+  .directions-input2:hover{
+    color: black;
+    background-color: #9c7833;
+  }
+
 
 
 }
