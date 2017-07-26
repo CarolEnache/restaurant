@@ -1,17 +1,28 @@
 @media(min-width: 1000px){
   .contact-content{
+    width: 50%;
+    margin-top: 2rem;
+    margin-left: 2rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+
+    // flex-wrap: wrap;
+    // justify-content: space-around;
+  }
+  .contact{
+    display: flex;
   }
   .contact-program{
-    width: 40%;
+    width: 90%;
   }
   .contact-details{
     width: 40%;
   }
   .contact-social{
     align-items: center;
+  }
+  .contact-social-item{
+    margin: 1rem;
   }
   .contact-social-icon{
     font-size: 1.5rem;
@@ -23,10 +34,11 @@
   }
   .contact-title{
     font-size: 1rem;
-    text-align: center;
+    // text-align: center;
   }
   .days{
     font-size: 0.7rem;
+    width: 140px;
   }
   .contact-paragraph{
     font-size: 0.7rem;
@@ -37,9 +49,13 @@
   .contact-details-link a{
     font-size: 0.7rem;
   }
+  .get-directions{
+    margin-top: .5rem;
+  }
   .directions-input1{
-    width: 60%;
+    width: 90%;
     font-size: 1rem;
+    margin-right: 2.8rem;
   }
   .directions-input2{
     height: 6rem;
@@ -50,6 +66,16 @@
     color: black;
     background-color: #9c7833;
   }
+
+  .contact-map{
+    width: 50%;
+    margin-top: 4rem;
+  }
+  #map {
+    width: 90%;
+    height: 81%;
+}
+  
 
 
 

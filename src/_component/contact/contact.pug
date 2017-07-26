@@ -1,6 +1,6 @@
 #contact
 .contact
-  h2.title #{data.bacco.contact.title}
+  //- h2.title #{data.bacco.contact.title}`
   .contact-content
     each content in data.bacco.contact.content  
       if content.type === "program"
@@ -25,17 +25,17 @@
                   p.contact-details-link !{y.address}
       if content.type === "social"
         .contact-social
-          h3.contact-title #{content.title}
+          //- h3.contact-title #{content.title}
           ul.contact-social-list
             each x in content.social
               li.contact-social-item
                 a.contact-social-link(href=x.address target='_blank')
                   span.contact-social-icon(class=`icon-${x.icon}`)
   .contact-map
+    include contact-map
     .get-directions
       form.directions(action='http://maps.google.com/maps', method='get', target='_blank')
         input.directions-input1(type='text', name='saddr' placeholder="Introduce-ti locatia curenta")
         input(type='hidden', name='daddr', value='[badea cartan nr  2 constanta]')
         input.directions-input2(type='submit', value='Afla Ruta')
 
-    include contact-map
