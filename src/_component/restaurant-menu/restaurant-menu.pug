@@ -1,15 +1,24 @@
 .menu
-  each meniu, meniuKey in data.meniu
-    div
-      h2=meniu.title
-      each menu, menuKey in meniu.menuList
-        div
-          label(for=`id-${meniuKey}-${menuKey}`)= menu.type
-          input.toggle-panel(id=`id-${meniuKey}-${menuKey}`, type="checkbox")
-          div.panel
-            label(for=`id-${meniuKey}-${menuKey}`) &times;
-            each i in menu.xyzCollection
-              h4= i.name
-              if i.descriptionCollection
-                each d in i.descriptionCollection
-                  p=d
+  .wrapper-restaurant-menu
+    each meniu, meniuKey in data.meniu
+      div
+        h2=meniu.title
+        each menu, menuKey in meniu.menuList
+          div
+            label(for=`id-${meniuKey}-${menuKey}`)= menu.type
+            input.toggle-panel(id=`id-${meniuKey}-${menuKey}`, type="checkbox")
+            div.panel
+              label(for=`id-${meniuKey}-${menuKey}`) &times;
+              each i in menu.xyzCollection
+                .photoWrapper
+                  img(src=i.url)
+                //- h4= i.name
+                //-   span= i.price
+                //- if i.wineCollection
+                //-   each w in i.wineCollection
+                //-     h3= w.name
+                //-       span= w.price
+                //-     p= w.wineDescription
+                //- if i.descriptionCollection
+                //-   each d in i.descriptionCollection
+                //-     p=d

@@ -6,129 +6,63 @@
         "type": "Champagne & Vin Spumant",
         "xyzCollection":[
           {
-            "name": "Moet Brut 750ml",
-            "price": "320.00 lei"
-          },
-          {
-            "name": "Mumm Cordon Rouge 750ml",
-            "price": "300.00 lei"
-          },
-          {
-            "name": "Asti Martini 750 ml",
-            "price": "80.00 lei"
-          },
-          {
-            "name": "Asti Cinzano 750ml",
-            "price": "80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Dolce 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Lambrisco Donelli Rose 750ml",
-            "price":"50.00 lei"
-          },
-          {
-            "name":"Lambrisco Donelli Rosso 750ml",
-            "price":"50.00 lei"
-          },
-          {
-            "name":"Prosseco cartte Della Calli 750ml",
-            "price":"65.00 lei"
-          },
-          {
-            "name":"Jacob's Creek White Brut 750ml",
-            "price":"110.00 lei"
-          },
-          {
-            "name":"Jacob's Creek Rose Sec 750ml",
-            "price":"110.00 lei"
-          },
-          {
-            "name":"Rose Mary-demisec 750ml",
-            "price":"50.00 lei"
-          },
-          {
-            "name":"Rose Mary-pinot rose 750ml",
-            "price":"55.00 lei"
-          },
-          {
-            "name":"Sole Spumante Alb 750ml",
-            "price":"70.00 lei"
-          },
-          {
-            "name":"Sole Spumante Rose 750ml",
-            "price":"70.00 lei"
+            "url": "/asset/image/menuPictures/2.jpg"
           }
         ]
       },
       {
-        "type": " Vin Alb",
+        "type": " Vinuri",
         "xyzCollection":[
           {
-            "name": "Moet Brut 750ml",
-            "price": "320.00 lei"
+            "url": "/asset/image/menuPictures/22.jpg"
           },
           {
-            "name": "Mumm Cordon Rouge 750ml",
-            "price": "300.00 lei"
+            "url": "/asset/image/menuPictures/23.jpg"
           },
           {
-            "name": "Asti Martini 750 ml",
-            "price": "80.00 lei"
+            "url": "/asset/image/menuPictures/25.jpg"
           },
           {
-            "name": "Asti Cinzano 750ml",
-            "price": "80.00 lei"
+            "url": "/asset/image/menuPictures/26.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Bauturi spirtoase & Digestive",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/15.jpg"
+          },
+           {
+            "url": "/asset/image/menuPictures/16.jpg"
           },
           {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
+            "url": "/asset/image/menuPictures/21.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Cocktails & Long drinks",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/3.jpg"
           },
           {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
+            "url": "/asset/image/menuPictures/24.jpg"
           },
           {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
+            "url": "/asset/image/menuPictures/6.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Cafea & Ceai",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/27.jpg"
           },
           {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
-          },
-          {
-            "name":"Asti Cinzano Rose 750ml",
-            "price":"80.00 lei"
+            "url": "/asset/image/menuPictures/28.jpg"
           }
         ]
       }

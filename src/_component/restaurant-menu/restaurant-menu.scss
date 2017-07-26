@@ -1,0 +1,33 @@
+.panel {
+  display: none;
+  background-color: lightcyan;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1222;
+  overflow: scroll;
+}
+
+.toggle-panel:checked + .panel {
+  display: inherit;
+}
+
+.menu{
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+h4{
+  text-align: center;
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+img{
+  width:100%;
+}
+.photoWrapper{
+  margin-top: 1rem;
+}
