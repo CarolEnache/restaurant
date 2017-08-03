@@ -1,14 +1,15 @@
 .menu
   .wrapper-restaurant-menu
     each meniu, meniuKey in data.meniu
-      div.restaurant-menu-subwrapper
+      div.restaurant-menu-section-wrapper
         h2.restaurant-menu-title= meniu.title
         each menu, menuKey in meniu.menuList
           div.restaurant-menu-sub-wrapper
             label.restaurant-menu-subtitle(for=`id-${meniuKey}-${menuKey}`)= menu.type
             input.toggle-panel(id=`id-${meniuKey}-${menuKey}`, type="checkbox")
             div.panel
-              label(for=`id-${meniuKey}-${menuKey}`) &times;
+              label.go-back(for=`id-${meniuKey}-${menuKey}`)
+                img.logo-menu(src="/asset/image/logo5.png")
               each i in menu.xyzCollection
                 .photoWrapper
                   img(src=i.url)

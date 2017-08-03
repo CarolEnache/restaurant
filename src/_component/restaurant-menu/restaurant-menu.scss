@@ -10,7 +10,7 @@
 }
 .panel {
   display: none;
-  background-color: lightcyan;
+  background-color: black;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -42,6 +42,9 @@ input.toggle-panel{
   display: none;
 }
 
+.go-back{
+
+}
 
 h4{
   text-align: center;
@@ -53,6 +56,6 @@ h3{
 img{
   width:100%;
 }
-.photoWrapper{
-  margin-top: 1rem;
-}
+// .photoWrapper{
+//   margin-top: 1rem;
+// }
