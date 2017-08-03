@@ -1,3 +1,13 @@
+.menu{
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+.wrapper-restaurant-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .panel {
   display: none;
   background-color: lightcyan;
@@ -14,10 +24,25 @@
   display: inherit;
 }
 
-.menu{
-  min-height: 100vh;
-  padding-top: 5rem;
+.restaurant-menu-title{
+  font-size: 3rem;
 }
+.restaurant-menu-section-wrapper{
+  padding: 2rem;
+}
+.restaurant-menu-sub-wrapper{
+  padding: 1rem;
+}
+
+.restaurant-menu-subtitle{
+  font-size: 1.5rem;
+}
+
+input.toggle-panel{
+  display: none;
+}
+
+
 h4{
   text-align: center;
   font-size: 2rem;
@@ -29,12 +54,5 @@ img{
   width:100%;
 }
 .photoWrapper{
-  
   margin-top: 1rem;
-}
-.wrapper-restaurant-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
