@@ -72,43 +72,81 @@
     "title":"Meniu Mancare",
     "menuList":[
       {
+        "type": "Mic Dejun",
+        "xyzCollection":[
+          {
+            "url": "asset/image/menuPictures/1.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Straters",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/7.jpg"
+          },
+          {
+            "url": "/asset/image/menuPictures/8.jpg"
+          }
+        ]
+      },
+      {
         "type" : "Fructe de mare",
         "xyzCollection": [
           {
-            "name": "Creveti 160/150g",
-            "price": "46.00 lei",
-            "descriptionCollection":[
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel"               
-            ]
+            "url": "/asset/image/menuPictures/5.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Peste",
+        "xyzCollection": [
+          {
+            "url": "/asset/image/menuPictures/12.jpg"
           },
           {
-            "name": "Creveti 160/150g",
-            "price": "46.00 lei",
-            "descriptionCollection":[
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel"               
-            ]
+            "url": "/asset/image/menuPictures/13.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Preparate din carne",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/9.jpg"
           },
           {
-            "name": "Creveti 160/150g",
-            "price": "46.00 lei",
-            "descriptionCollection":[
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel"               
-            ]
+            "url": "/asset/image/menuPictures/10.jpg"
           },
           {
-            "name": "Creveti 160/150g",
-            "price": "46.00 lei",
-            "descriptionCollection":[
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel",
-              "In sos alb si patrunjel"               
-            ]
+            "url": "/asset/image/menuPictures/17.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Pizza",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/18.jpg"
+          },
+          {
+            "url": "/asset/image/menuPictures/14.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Garnituri",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/11.jpg"
+          }
+        ]
+      },
+      {
+        "type": "Salate",
+        "xyzCollection":[
+          {
+            "url": "/asset/image/menuPictures/19.jpg"
           }
         ]
       }

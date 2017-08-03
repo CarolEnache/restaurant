@@ -3,8 +3,8 @@
     .home-desc-wrapper
       img.logo(src="asset/image/logo5.png")
       .paragraph-wrapper
-        for y in data.bacco.description.text
+        for y in data.bacco.home.text
           if y === "paragraph"
           p.home-desc #{y.paragraph}
-      a#arrow(href="#")
+      a#arrow(href="#contact")
         span.icon-angle-down.floating
