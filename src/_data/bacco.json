@@ -17,7 +17,11 @@
   },
   "nav":[
     {
-      "title": "Evenimente Private",
+      "title":"Acasa",
+      "url": "#home"
+    },
+    {
+      "title": "Evenimente",
       "url": "#evenimente"
     },
     {
